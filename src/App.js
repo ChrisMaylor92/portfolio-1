@@ -9,12 +9,16 @@ import { Work } from "./components/Work";
 function App() {
   return (
     <div>
+      <div id="header">
+
+      
       <Navbar/>
       <Home/>
-      <About/>
       <Skills/>
+      <About/>
       <Work/>
       <Contact/>
+      </div>
     </div>
   );
 }
