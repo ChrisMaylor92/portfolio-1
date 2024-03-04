@@ -10,15 +10,22 @@ function App() {
   return (
     <div>
       <div id="header">
-
-      
-      <Navbar/>
-      <Home/>
-      <Skills/>
-      <About/>
-      <Work/>
-      <Contact/>
+        <Navbar/>
+        <Home/>
       </div>
+
+      <Skills/>
+
+      <div id="header2">
+        <About/>
+      </div>
+      
+      <Work/>
+      <div id="header3">
+        <Contact/>
+      </div>
+      
+      
     </div>
   );
 }

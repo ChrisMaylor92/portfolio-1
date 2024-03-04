@@ -32,7 +32,25 @@
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/Test4.gif);
+    background-image: url(assets/coderMorning.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/DaytimeTEST.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/coderMorning.gif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
