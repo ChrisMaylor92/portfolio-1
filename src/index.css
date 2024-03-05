@@ -32,7 +32,7 @@
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/coderMorning.gif);
+    background-image: url(assets/coderMorningLeft3.gif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -41,7 +41,7 @@
 #header2{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/DaytimeTEST.png);
+    background-image: url(assets/coderMorning.gif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -50,8 +50,9 @@
 #header3{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/coderMorning.gif);
+    background-image: url(assets/coderMorningLeft3Grid.gif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+

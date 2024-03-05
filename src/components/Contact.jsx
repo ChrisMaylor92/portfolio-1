@@ -1,6 +1,7 @@
 export const Contact = () => {
     return (
-        <div name="contact"className="w-full h-screen flex justify-center items-center p-4">
+        <div name="contact"className="w-full h-screen grid grid-cols-2 flex justify-center items-center p-4">
+            <div></div>
             <form method="post" action="https://getform.io/f/xe7jLOd7" className="flex flex-col max-w-[600px] w-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-[#5fff3f] text-gray-300">Contact</p>

@@ -1,4 +1,7 @@
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFolderOpen, FaHome} from 'react-icons/fa'
+import {FaScrewdriverWrench, FaPersonSnowboarding} from 'react-icons/fa6'
+import { IoIosMail } from "react-icons/io";
+
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from'react-icons/bs'
 import logo from '../assets/CMLogo.png'
@@ -9,6 +12,7 @@ export const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
+        
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#232323] text-gray-300">
             <div>
                 <img src={logo} alt="logo" style={{width: '150px'}}/>
@@ -76,27 +80,48 @@ export const Navbar = () => {
                     </li>
                 </ul>
             
-            {/* socials */}
-                <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+            {/* scroll links */}
+                <div className="hidden lg:flex fixed flex-col top-[37%] left-0">
                     <ul>
-                        
-                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#84848433]">
-                            <a href="https://github.com/ChrisMaylor92" className="flex justify-between items-center w-full text-gray-300"> 
-                            GitHub <FaGithub size={30}/>
-                            </a>
+                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#00b9f2]">
+                            <Link to="home" smooth={true} duration={600} className="flex justify-between items-center w-full text-xl text-gray-300"> 
+                                Home
+                                <FaHome size={30}/>
+                                
+                            </Link>
                         </li>
                         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#43ad2e]">
-                            <a href="https://www.linkedin.com/in/chris-maylor-20132317b/" className="flex justify-between items-center w-full text-gray-300"> 
-                            LinkedIn <FaLinkedin size={30}/>
-                            </a>
+                            <Link to="skills" smooth={true} duration={600} className="flex justify-between items-center w-full text-xl text-gray-300"> 
+                                Skills
+                                <FaScrewdriverWrench size={30}/>
+                                
+                            </Link>
                         </li>
-                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-                            <a download="CV.docx" href='CV.docx'className="flex justify-between items-center w-full text-gray-300"> 
-                            Resume <BsFillPersonLinesFill size={30}/>
-                            </a>
+                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#e1712e]">
+                            <Link to="about" smooth={true} duration={600} className="flex justify-between items-center w-full text-xl text-gray-300"> 
+                                About
+                                <FaPersonSnowboarding size={30}/>
+                                
+                            </Link>
+                        </li>
+                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9b643e]">
+                            <Link to="work" smooth={true} duration={600} className="flex justify-between items-center w-full text-xl text-gray-300"> 
+                                Work
+                                <FaFolderOpen size={30}/>
+                                
+                            </Link>
+                        </li>
+                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#7b00a8]">
+                            <Link to="contact" smooth={true} duration={600} className="flex justify-between items-center w-full text-xl text-gray-300"> 
+                                Contact
+                                <IoIosMail size={30}/>
+                                
+                            </Link>
                         </li>
                     </ul>
                 </div>
         </div>
+        
+        
     )
 }
