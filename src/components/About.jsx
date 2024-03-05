@@ -10,8 +10,8 @@ export const About = () => {
                 </div>
                 <div className="max-w-[1600px] w-full grid sm:grid-cols-2 gap-8 px-4">
                     <div className="sm:text-right text-3xl font-bold ">
-                        <p>Chris Maylor</p>
-                        <p>Full Stack Developer</p>
+                        <p className="text-5xl pb-2">Chris Maylor</p>
+                        <p>Full Stack Web Developer</p>
                         <p>London</p>
                     </div>
                     <div>

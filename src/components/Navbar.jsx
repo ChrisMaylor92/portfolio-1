@@ -1,4 +1,4 @@
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFolderOpen, FaHome} from 'react-icons/fa'
+import {FaBars, FaTimes, FaFolderOpen, FaHome} from 'react-icons/fa'
 import {FaScrewdriverWrench, FaPersonSnowboarding} from 'react-icons/fa6'
 import { IoIosMail } from "react-icons/io";
 
@@ -120,7 +120,9 @@ export const Navbar = () => {
                         </li>
                     </ul>
                 </div>
+                
         </div>
+        
         
         
     )
