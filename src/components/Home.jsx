@@ -20,7 +20,7 @@ export const Home = () => {
                     
                     ]}
                 wrapper="span"
-                speed={50}
+                speed={60}
                 className="text-2xl text-left font-bold pb-2 justify-items-start text-[#43ad2e]"
                 repeat={0}
                 cursor={false}
@@ -28,14 +28,14 @@ export const Home = () => {
                 <TypeAnimation 
                 sequence={[
                     '',
-                    1200,
+                    800,
                     'Chris Maylor',
                     1000
                     
                     
                     ]}
                 wrapper="span"
-                speed={5}
+                speed={20}
                 className="text-7xl text-left font-bold pb-2 text-[#ccd6f6]"
                 repeat={0}
                 cursor={false}
@@ -44,13 +44,13 @@ export const Home = () => {
                 <TypeAnimation 
                 sequence={[
                     '',
-                    2650,
+                    1900,
                     "& I'm a Full Stack Web Developer",
                     1000
                     
                     ]}
                 wrapper="span"
-                speed={35}
+                speed={65}
                 className="text-6xl text-left font-bold pb-1 text-[#8892b0]"
                 repeat={0}
                 cursor={false}
@@ -59,15 +59,25 @@ export const Home = () => {
                 <TypeAnimation 
                 sequence={[
                     '',
-                    5200,
-                    'Welcome to my portfolio website, please take a look around. I built this website using Javascript, React, TailwindCSS & Adobe CC.',
-                    500,
-                    
-                    
+                    3150,
+                    'Welcome to my portfolio website, please take a look around.'
                     ]}
                 wrapper="span"
                 speed={65}
-                className="text-base font-bold pb-2 py-4 text-gray-300"
+                className="text-2xl font-bold  py-4 text-[#e1712e]"
+                repeat={0}
+                cursor={false}
+                />
+
+                <TypeAnimation 
+                sequence={[
+                    '',
+                    5600,
+                    'I built this website using Javascript, React, TailwindCSS & Adobe CC.'
+                    ]}
+                wrapper="span"
+                speed={65}
+                className="text-lg font-bold pb-2 text-gray-300"
                 repeat={0}
                 cursor={false}
                 />

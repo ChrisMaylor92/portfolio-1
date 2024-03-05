@@ -1,9 +1,6 @@
 import {FaBars, FaTimes, FaFolderOpen, FaHome} from 'react-icons/fa'
 import {FaScrewdriverWrench, FaPersonSnowboarding} from 'react-icons/fa6'
 import { IoIosMail } from "react-icons/io";
-
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from'react-icons/bs'
 import logo from '../assets/CMLogo.png'
 import { useState } from 'react'
 import { Link } from 'react-scroll';
