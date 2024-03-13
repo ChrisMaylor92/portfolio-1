@@ -27,9 +27,7 @@ export const Work = () => {
                                 <a href="https://github.com/ChrisMaylor92/MMITM">
                                     <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Code</button>
                                 </a>
-                                <a href="/">
-                                    <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Blog</button>
-                                </a>
+                                
                             </div>
                             <span className=" pl-6 pt-6 text-1xl text-center font-bold text-white tracking-wider">
                                 Typescript, React, Firebase
@@ -42,18 +40,16 @@ export const Work = () => {
                             <span className="pl-2 text-2xl font-bold text-white tracking-wider">
                                 NC-News - Front End 
                             </span>
-                            <div className="pt-8 text-center">
+                            <div className="pt-8 pb-8 text-center">
                                 <a href="https://snazzy-pika-9fa17f.netlify.app/">
                                     <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="https://github.com/ChrisMaylor92/fe-nc-news">
                                     <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Code</button>
                                 </a>
-                                <a href="/">
-                                    <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Blog</button>
-                                </a>
+                                
                             </div>
-                            <span className=" pl-3 text-1xl text-center font-bold text-white tracking-wider">
+                            <span className=" pl-3 pt-6 text-1xl text-center font-bold text-white tracking-wider">
                                 Javascript, React, TailwindCSS
                             </span>
                         </div>
@@ -64,18 +60,16 @@ export const Work = () => {
                             <span className="pl-2 text-2xl font-bold text-white tracking-wider">
                                 NC-News - Back End
                             </span>
-                            <div className="pt-8 text-center">
+                            <div className="pt-8 pb-8 text-center">
                                 <a href="https://chriss-new-app.onrender.com/api">
                                     <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="https://github.com/ChrisMaylor92/chris-nc-news">
                                     <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Code</button>
                                 </a>
-                                <a href="/">
-                                    <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Blog</button>
-                                </a>
+                               
                             </div>
-                            <span className=" pl-10 text-1xl font-bold text-white tracking-wider">
+                            <span className=" pl-8 pt-6 text-1xl font-bold text-white tracking-wider">
                                 Javascript, Express, TDD
                             </span>
                         </div>
