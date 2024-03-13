@@ -4,7 +4,7 @@ import ReactImg from '../assets/react.png'
 import CSS from '../assets/css.png'
 import Node from '../assets/node.png'
 import Firebase from '../assets/firebase.png'
-import Github from '../assets/github.png'
+
 import Tailwind from '../assets/tailwind.png'
 import TypeScript from '../assets/ts.png'
 export const Skills =() => {
