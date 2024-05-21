@@ -15,10 +15,10 @@ export const Navbar = () => {
                 <img src={logo} alt="logo" style={{width: '150px'}}/>
             </div>
             {/* Menu */}
-{/*             
+            
                 <ul className="hidden md:flex">
                     <li>
-                        <Link to="home" smooth={true} duration={500} >
+                        <Link to="home" >
                             Home
                         </Link>
                     </li>
@@ -42,7 +42,7 @@ export const Navbar = () => {
                             Contact
                         </Link>
                     </li>
-                </ul> */}
+                </ul>
             
             {/* Hamburger */}
                 <div onClick={handleClick} className="md:hidden z-10">

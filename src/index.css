@@ -36,12 +36,29 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
+}
+#headerMobile{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/coderMorningPortrait.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #header2{
     width: 100%;
     height: 100vh;
     background-image: url(assets/coderAfternoonRight.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#header2Mobile{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/coderAfternoonPortrait.gif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -55,4 +72,11 @@
     background-position: center;
     background-attachment: fixed;
 }
-
+#header3Mobile{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/coderNightPortrait.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

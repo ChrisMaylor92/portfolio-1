@@ -11,7 +11,7 @@ export const Home = () => {
 
             </div>
             
-            <div className="max-w-[1500px]  pl-64 flex flex-col col-span-2 justify-center h-full">
+            <div className="max-w-[1500px] pl-64 flex flex-col col-span-2 justify-center h-full">
                 {/* <p className="text-[#5fff3f] font-bold pb-2 text-2xl">Hi, my name is</p> */}
                 <TypeAnimation 
                 sequence={[

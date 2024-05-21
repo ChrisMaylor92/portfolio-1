@@ -10,7 +10,13 @@ import { Work } from "./components/Work";
 function App() {
   return (
     <div>
-      <div id="header">
+      <div id="header" className="hidden lg:flex ">
+      
+        <Navbar/>
+        <Home/>
+        
+      </div>
+      <div id="headerMobile" className="flex lg:hidden h-screen ">
       
         <Navbar/>
         <Home/>
@@ -19,12 +25,19 @@ function App() {
 
       <Skills/>
 
-      <div id="header2">
+      <div id="header2" className="hidden lg:flex">
+        <About/>
+      </div>
+      <div id="header2Mobile" className="flex lg:hidden h-screen">
         <About/>
       </div>
       
       <Work/>
-      <div id="header3">
+      <div id="header3" className="hidden lg:flex">
+        <Contact/>
+        
+      </div>
+      <div id="header3Mobile" className="flex lg:hidden">
         <Contact/>
         
       </div>
