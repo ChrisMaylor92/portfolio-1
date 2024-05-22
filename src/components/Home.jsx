@@ -21,7 +21,7 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={60}
-                className="text-md text-left font-bold pb-1 justify-items-start text-[#43ad2e]"
+                className="text-base text-left font-bold pb-1 justify-items-start text-[#43ad2e]"
                 repeat={0}
                 cursor={false}
                 />
@@ -36,7 +36,7 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={20}
-                className="text-3xl text-left font-bold pb-1 text-[#ccd6f6]"
+                className="text-2xl text-left font-bold pb-1 text-[#ccd6f6]"
                 repeat={0}
                 cursor={false}
                 />
@@ -51,7 +51,7 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={65}
-                className="text-2xl text-left font-bold pb-1 text-[#8892b0]"
+                className="text-xl text-left font-bold pb-1 text-[#8892b0]"
                 repeat={0}
                 cursor={false}
                 />
