@@ -2,7 +2,7 @@ import {FaGithub, FaLinkedin } from 'react-icons/fa'
 import {BsFillPersonLinesFill} from'react-icons/bs'
 export const Footer = () => {
     return (
-        <footer className="sticky bottom-0 flex flex-col w-full  items-center pb-4 pt-4 bg-[#232323]">
+        <footer className="fixed bottom-0 flex flex-col w-full  items-center pb-4 pt-4 bg-[#232323]">
             <div className="grid grid-cols-3 gap-10 ">
                 <a href="https://github.com/ChrisMaylor92" > 
                 

@@ -4,11 +4,16 @@ import { IoIosMail } from "react-icons/io";
 import logo from '../assets/CMLogo.png'
 import { useState } from 'react'
 import { Link } from 'react-scroll';
+import { Footer } from './Footer';
+import {FaGithub, FaLinkedin } from 'react-icons/fa'
+import {BsFillPersonLinesFill} from'react-icons/bs'
 
 export const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
+        <div>
+
         
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#232323] text-gray-300">
             <div>
@@ -119,8 +124,8 @@ export const Navbar = () => {
                 </div>
                 
         </div>
-        
-        
+      <Footer/>
+        </div>
         
     )
 }
