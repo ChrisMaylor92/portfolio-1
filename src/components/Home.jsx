@@ -21,7 +21,7 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={60}
-                className="text-lg text-left font-bold pb-2 justify-items-start text-[#43ad2e]"
+                className="text-md text-left font-bold pb-1 justify-items-start text-[#43ad2e]"
                 repeat={0}
                 cursor={false}
                 />
@@ -36,7 +36,7 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={20}
-                className="text-4xl text-left font-bold pb-2 text-[#ccd6f6]"
+                className="text-3xl text-left font-bold pb-1 text-[#ccd6f6]"
                 repeat={0}
                 cursor={false}
                 />
@@ -51,7 +51,7 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={65}
-                className="text-3xl text-left font-bold pb-1 text-[#8892b0]"
+                className="text-2xl text-left font-bold pb-1 text-[#8892b0]"
                 repeat={0}
                 cursor={false}
                 />
@@ -64,7 +64,7 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={65}
-                className="text-md font-bold  py-2 text-[#e1712e]"
+                className="text-sm font-bold  py-1 text-[#e1712e]"
                 repeat={0}
                 cursor={false}
                 />
@@ -77,15 +77,15 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={65}
-                className="text-sm font-bold pb-2 text-gray-300"
+                className="text-xs font-bold pb-1 text-gray-300"
                 repeat={0}
                 cursor={false}
                 />
                 {/* <h2 className="text-3xl md:text-6xl font-bold text-[#8892b0]">& I'm a Full Stack Developer</h2> */}
                 {/* <p className="text-lg text-gray-300 py-4 max-w-700px">Welcome to my portfolio website, please take a look around. I built this website using Javascript, React, TailwindCSS & Adobe CSS. </p> */}
-                 <div className="pt-3">
+                 <div className="pt-1">
                     <Link to="work" smooth={true} duration={500} >
-                        <button className="text-white text-lg group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                        <button className="text-white text-sm border-2 px-3 py-2 my-2  hover:bg-[#43ad2e] hover:border-[#43ad2e]">
                         View Work 
                         
                         </button>
@@ -96,7 +96,7 @@ export const Home = () => {
             </div>
         </div> 
 {/* Desktop View */}
-        <div name="home" className="hidden w-full h-screen md:grid grid-cols-3 justify-center">
+        <div name="home" className="hidden w-screen h-screen md:grid grid-cols-3 justify-center">
             {/* container */}
             <div>
 
