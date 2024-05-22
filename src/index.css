@@ -47,6 +47,7 @@
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 #header2{
@@ -60,17 +61,18 @@
 #header2Mobile{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/coderAfternoonPortrait.gif);
+    background-image: url(assets/MobileAfternoon.gif);
     background-size: auto 100%;
     background-position: center;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 #header3{
     width: 100%;
     height: 100vh;
     background-image: url(assets/coderNightLeft.gif);
-     background-size: auto 100%;
+     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
