@@ -10,11 +10,11 @@ export const Home = () => {
     useEffect(() => {
         setTimeout(() => {
             setTimePass(true);
-          }, 9000);
+          }, 8500);
     }, [setTimePass])
 
     return (
-        <div>
+        <div name="home">
 {/* Mobile View */}
         <div name="home" className="md:hidden w-full h-screen ">
             {/* container */}
@@ -82,7 +82,7 @@ export const Home = () => {
                 sequence={[
                     '',
                     5600,
-                    'I built this website using Javascript, React, TailwindCSS & Adobe CC.'
+                    'I built this website using JavaScript, React, TailwindCSS & Adobe CC.'
                     ]}
                 wrapper="span"
                 speed={65}
@@ -174,7 +174,7 @@ export const Home = () => {
                 sequence={[
                     '',
                     5600,
-                    'I built this website using Javascript, React, TailwindCSS & Adobe CC.'
+                    'I built this website using JavaScript, React, TailwindCSS & Adobe CC.'
                     ]}
                 wrapper="span"
                 speed={65}
