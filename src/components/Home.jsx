@@ -88,7 +88,7 @@ export const Home = () => {
             </div>
             <div className="pt-1 flex justify-center">
                     <Link to="work" smooth={true} duration={500} >
-                        <button className="text-white text-sm border-2 px-3 py-2 my-2 hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                        <button className="text-white text-sm border-2 px-3 py-2 my-2 items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
                         View Work 
                         
                         </button>
