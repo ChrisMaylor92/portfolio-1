@@ -1,9 +1,18 @@
 import { Link } from 'react-scroll';
-
+import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation'
+import { useEffect } from 'react';
 
 export const Home = () => {
-  
+    const [timePass, setTimePass] = useState(false)
+
+    
+    useEffect(() => {
+        setTimeout(() => {
+            setTimePass(true);
+          }, 9000);
+    }, [setTimePass])
+
     return (
         <div>
 {/* Mobile View */}
@@ -86,7 +95,7 @@ export const Home = () => {
                 
              
             </div>
-            <div className="pt-1 flex justify-center">
+            { timePass && <div className="pt-1 flex justify-center">
                     <Link to="work" smooth={true} duration={500} >
                         <button className="text-white text-sm border-2 px-3 py-2 my-2 items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
                         View Work 
@@ -94,7 +103,7 @@ export const Home = () => {
                         </button>
                         </Link>
                     
-            </div>
+            </div>}
         </div> 
 {/* Desktop View */}
         <div name="home" className="hidden w-screen h-screen md:grid grid-cols-3 justify-center">
