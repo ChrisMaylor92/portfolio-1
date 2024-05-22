@@ -5,8 +5,7 @@ import logo from '../assets/CMLogo.png'
 import { useState } from 'react'
 import { Link } from 'react-scroll';
 import { Footer } from './Footer';
-import {FaGithub, FaLinkedin } from 'react-icons/fa'
-import {BsFillPersonLinesFill} from'react-icons/bs'
+
 
 export const Navbar = () => {
     const [nav, setNav] = useState(false)
