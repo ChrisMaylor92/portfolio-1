@@ -7,8 +7,8 @@ export const Carousel = () => {
     
     const data = [
         {
-            "src": {MMITM},
-            "alt": "Image 1 for carousel"
+            "src": MMITM,
+            "alt": "Image for Meet me in the Middle"
         },
         {
             "src": "https://picsum.photos/seed/img2/600/400",
