@@ -9,7 +9,7 @@ import Tailwind from '../assets/tailwind.png'
 import TypeScript from '../assets/ts.png'
 export const Skills =() => {
     return (
-        <div>
+        <div name="skills">
         {/* Mobile View */}
         <div name="skills" className="flex md:hidden w-full h-screen bg-[#232323] text-gray-300">
             {/* container */}

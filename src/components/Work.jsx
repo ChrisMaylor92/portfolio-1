@@ -7,10 +7,10 @@ import { CarouselMobile } from './CarouselMobile'
 
 export const Work = () => {
     return (
-        <div>
+        <div name="work">
 {/* Mobile View */}
             <div className="md:hidden flex flex-col items-center justify-center text-gray-300 bg-[#232323] w-screen h-screen">
-            <div className="pt-20">
+            <div >
                 <div>
                     <p className="text-2xl font-bold inline border-b-4  border-[#5fff3f]">Work</p>
                     <p className="text-lg py-3">Check out some of my recent work</p>

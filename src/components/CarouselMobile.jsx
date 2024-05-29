@@ -1,4 +1,4 @@
-import "./CarouselMobile.css";
+import "./Carousel.css";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs"
 import { useState } from "react";
 import MMITM from "../assets/MMITM2.jpg"
@@ -46,12 +46,12 @@ export const CarouselMobile = () => {
     }
     return (
         <div className="carousel">
-            <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide}/>
+            <BsArrowLeftCircleFill className="arrow-m arrow-left-m" onClick={prevSlide}/>
             {data.map((item, idx) => {
-                return <span key={idx} className={slide === idx ? "card" : "card-hidden"}>
+                return <span key={idx} className={slide === idx ? "card-m" : "card-hidden-m"}>
                             <p className="text-2xl font-bold " key={idx} >{item.name}</p>
                             <p>{item.type}</p>
-                            <img src={item.src} alt={item.alt} key={idx} className={slide === idx ? "slide" : "slide slide-hidden"}/>
+                            <img src={item.src} alt={item.alt} key={idx} className={slide === idx ? "slide-m" : "slide-m slide-hidden-m"}/>
                             
                             <p className="text-center">{item.stack}</p>
                             <div>
@@ -67,10 +67,10 @@ export const CarouselMobile = () => {
                     
                     
             })}
-            <BsArrowRightCircleFill className="arrow arrow-right" onClick={nextSlide}/>
-            <span className="indicators">
+            <BsArrowRightCircleFill className="arrow-m arrow-right-m" onClick={nextSlide}/>
+            <span className="indicators-m">
                 {data.map((_, idx) => {
-                    return <button key={idx} onClick={() => setSlide(idx)} className={slide === idx ? "indicator" : "indicator indicator-inactive"}></button>
+                    return <button key={idx} onClick={() => setSlide(idx)} className={slide === idx ? "indicator-m" : "indicator-m indicator-inactive-m"}></button>
                 })}
             </span>
         </div>
