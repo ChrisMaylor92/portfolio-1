@@ -56,10 +56,10 @@ export const CarouselMobile = () => {
                             <p className="text-center">{item.stack}</p>
                             <div>
                                 <a href={item.demo}>
-                                    <button className="text-center round-lg px-2 py-1 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Demo</button>
+                                    <button className="text-center round-lg px-2 py-1 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-md">Demo</button>
                                 </a>
                                 <a href={item.code}>
-                                    <button className="text-center round-lg px-2 py-1 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Code</button>
+                                    <button className="text-center round-lg px-2 py-1 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-md">Code</button>
                                 </a>
                             </div>
                             
