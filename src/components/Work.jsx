@@ -2,20 +2,43 @@
 // import Laptop from '../assets/Laptop.jpg'
 // import News from '../assets/Newspaper.png'
 import { Carousel } from './Carousel'
+import { CarouselMobile } from './CarouselMobile'
 
 
-export const Work = ({data}) => {
+export const Work = () => {
     return (
-        <div className="flex flex-col items-center justify-center bg-[#232323] h-screen">
-            <Carousel data={data} />
+        <div>
+{/* Mobile View */}
+            <div className="md:hidden flex flex-col items-center justify-center text-gray-300 bg-[#232323] w-screen h-screen">
+            <div className="pt-20">
+                <div>
+                    <p className="text-2xl font-bold inline border-b-4  border-[#5fff3f]">Work</p>
+                    <p className="text-lg py-3">Check out some of my recent work</p>
+                </div>
+                <div></div>
+            </div>
+            <CarouselMobile  />
         </div>
+{/* Desktop View */}
+        <div className="hidden md:flex flex-col items-center justify-center text-gray-300 bg-[#232323] w-screen h-screen">
+            <div className="pb-8 grid grid-cols-3">
+                <div>
+                    <p className="text-4xl font-bold inline border-b-4  border-[#5fff3f]">Work</p>
+                    <p className="text-lg py-6">Check out some of my recent work</p>
+                </div>
+                <div></div>
+            </div>
+            <Carousel  />
+        </div>
+        </div>
+        
         
         // <div name="work" >
         //     {/* Mobile View */}
         // <div className=" flex md:hidden w-full h-screen text-gray-300 bg-[#232323]">
         //     <div className="max-w-[1000px]  p-4 flex flex-col w-full h-full">
         //         <div className="pb-2">
-        //             <p className="text-2xl font-bold inline border-b-4 text gray-300 border-[#5fff3f]">Work</p>
+        //             <p className="text-2xl font-bold inline border-b-4 border-[#5fff3f]">Work</p>
         //             <p className="text-md py-6">Check out some of my recent work</p>
         //         </div>
         //         {/* Container */}

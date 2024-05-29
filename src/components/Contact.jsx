@@ -17,7 +17,7 @@ export const Contact = () => {
             
         </div>
         {/* Desktop View */}
-        <div name="contact"className="hidden w-full h-screen md:grid grid-cols-2 flex justify-center items-center p-4">
+        <div name="contact"className="hidden w-screen h-screen md:grid grid-cols-2 flex justify-center items-center p-4">
             <div></div>
             <form method="post" action="https://getform.io/f/xe7jLOd7" className="flex flex-col max-w-[600px] w-full">
                 <div className="pb-2">

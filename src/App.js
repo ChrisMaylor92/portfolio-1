@@ -5,10 +5,10 @@ import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
 import { Skills } from "./components/Skills";
 import { Work } from "./components/Work";
-import carouselData from "./carouselData.json";
+
 
 function App() {
-  console.log(carouselData)
+  
   return (
     <div>
       <div id="header" className="hidden lg:flex ">
@@ -33,7 +33,7 @@ function App() {
         <About/>
       </div>
       
-      <Work data={carouselData.slides}/>
+      <Work />
       <div id="header3" className="hidden lg:flex">
         <Contact/>
         

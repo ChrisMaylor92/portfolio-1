@@ -1,11 +1,11 @@
-import "./Carousel.css";
+import "./CarouselMobile.css";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs"
 import { useState } from "react";
-import MMITM from "../assets/MMITM1.jpg"
-import Backend from '../assets/Backend1.jpg'
-import News from '../assets/News1.jpg'
+import MMITM from "../assets/MMITM2.jpg"
+import Backend from '../assets/Backend2.jpg'
+import News from '../assets/News2.jpg'
 
-export const Carousel = () => {
+export const CarouselMobile = () => {
     
     const data = [
         {
@@ -53,13 +53,13 @@ export const Carousel = () => {
                             <p>{item.type}</p>
                             <img src={item.src} alt={item.alt} key={idx} className={slide === idx ? "slide" : "slide slide-hidden"}/>
                             
-                            <p>{item.stack}</p>
+                            <p className="text-center">{item.stack}</p>
                             <div>
                                 <a href={item.demo}>
-                                    <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Demo</button>
+                                    <button className="text-center round-lg px-2 py-1 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Demo</button>
                                 </a>
                                 <a href={item.code}>
-                                    <button className="text-center round-lg px-4 py-3 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Code</button>
+                                    <button className="text-center round-lg px-2 py-1 m-2 bg-[#111111] border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] text-white font-bold text-lg">Code</button>
                                 </a>
                             </div>
                             

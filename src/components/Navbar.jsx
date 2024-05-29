@@ -14,7 +14,7 @@ export const Navbar = () => {
         <div>
 
         
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#232323] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center z-20 px-4 bg-[#232323] text-gray-300">
             <div>
                 <img src={logo} alt="logo" style={{width: '150px'}}/>
             </div>

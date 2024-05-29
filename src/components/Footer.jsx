@@ -5,7 +5,7 @@ export const Footer = () => {
         <div>
 
         {/* Mobile View */}
-        <footer className="fixed md:hidden bottom-0 flex flex-col w-full  items-center pb-4 pt-4 bg-[#232323]">
+        <footer className="fixed md:hidden bottom-0 flex flex-col w-full  items-center pb-4 z-20 pt-4 bg-[#232323]">
             <div className="grid grid-cols-3 gap-7 ">
                 <a href="https://github.com/ChrisMaylor92" > 
                 
@@ -20,7 +20,7 @@ export const Footer = () => {
             </div>
         </footer>
         {/* Desktop View */}
-        <footer className="hidden fixed bottom-0 md:flex flex-col w-full  items-center pb-4 pt-4 bg-[#232323]">
+        <footer className="hidden fixed bottom-0 md:flex flex-col w-full  items-center pb-4 pt-4 z-20 bg-[#232323]">
             <div className="grid grid-cols-3 gap-10 ">
                 <a href="https://github.com/ChrisMaylor92" > 
                 
